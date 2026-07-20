@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.emtech.com/quickstart
+docs: https://developer.emtech.com/quickstart
+summary:
+  types:
+  - apiKey
+  api_key_in:
+  - header
+  oauth2_flows: []
+  notes: >-
+    EMTECH APIs authenticate with an organization API key. Credentials are
+    unique to each organization and environment (Test or Live) and are issued
+    from the platform at https://app.emtech.com. A key grants access to
+    EMTECH's authentication, event-reporting, and compliance-workflow
+    endpoints. No public OpenAPI specification is published, so the header
+    name and key format below are described in the docs rather than derived
+    from a machine-readable spec.
+schemes:
+- name: apiKey
+  type: apiKey
+  in: header
+  environments:
+  - test
+  - live
+  issued_from: https://app.emtech.com
+  sources:
+  - https://developer.emtech.com/quickstart
