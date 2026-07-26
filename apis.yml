@@ -1,7 +1,27 @@
 aid: emtech
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/emtech.png
 name: EMTECH
-description: EMTECH is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: EMTECH is a financial-technology company founded in 2019 that modernizes
+  financial market infrastructure for central banks, financial regulators, and financial
+  service providers. Its Beyond Suite delivers regulatory sandbox management (Beyond
+  Sandbox), digital cash and central bank digital currency infrastructure (Beyond
+  Cash), automated compliance operations (Beyond Compliance), and risk-based supervision
+  (Beyond Supervision), exposed through regulatory-reporting and data-ingestion APIs
+  for microlending, remittance, payments, virtual assets, crowdfunding, consumer protection,
+  and a CBDC simulator. EMTECH works with African central banks including the Bank
+  of Ghana, the Central Bank of Nigeria, and Liberia, and is SOC 2 and ISO 27001 certified.
 url: https://raw.githubusercontent.com/api-evangelist/emtech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Regtech
+- Central Banking
+- CBDC
+- Digital Currency
+- Compliance
+- Regulatory Reporting
+- Fintech
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,48 @@ maintainers:
 common:
 - type: Website
   url: https://emtech.com
+- type: DeveloperPortal
+  url: https://developer.emtech.com
+- type: Documentation
+  url: https://docs.emtech.com
+- type: APIReference
+  url: https://developer.emtech.com
+- type: GettingStarted
+  url: https://developer.emtech.com/quickstart
+- type: Support
+  url: https://emtech.com/contact-us
+- type: Blog
+  url: https://emtech.com/resources/blog
+- type: StatusPage
+  url: https://status.emtech.com
+- type: SignUp
+  url: https://app.emtech.com/register
+- type: Login
+  url: https://app.emtech.com
+- type: TermsOfService
+  url: https://emtech.com/terms-&-conditions
+- type: PrivacyPolicy
+  url: https://emtech.com/privacy-policy
+- type: Marketplace
+  url: https://emtech.com/beyond-suite/marketplace
+- type: Authentication
+  url: authentication/emtech-authentication.yml
+- type: Conformance
+  url: conformance/emtech-conformance.yml
+- type: Compliance
+  url: conformance/emtech-conformance.yml
+- type: Lifecycle
+  url: lifecycle/emtech-lifecycle.yml
+- type: Sandbox
+  url: sandbox/emtech-sandbox.yml
+- type: Conventions
+  url: conventions/emtech-conventions.yml
+- type: DomainSecurity
+  url: security/emtech-domain-security.yml
+- type: LLMsTxt
+  url: llms/emtech-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

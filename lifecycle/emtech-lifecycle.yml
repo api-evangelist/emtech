@@ -1,0 +1,33 @@
+generated: '2026-07-19'
+method: searched
+source: https://status.emtech.com
+status_page: https://status.emtech.com
+status_feeds:
+- type: atom
+  url: https://status.emtech.com/history.atom
+- type: rss
+  url: https://status.emtech.com/history.rss
+status_components:
+- Digital Regulatory Platform
+- Regulatory Compliance APIs
+- Microlending Data Ingestion API
+- Remittance Data Ingestion API
+- Payment Data Ingestion API
+- Consumer Protection API
+- Virtual Assets Data Ingestion APIs
+- Crowdfunding Data Ingestion API
+- Digital Cash APIs
+- CBDC Simulator API
+versioning:
+  scheme: unknown
+  notes: No public versioning policy or deprecation/Sunset (RFC 8594) policy was
+    found on the developer docs or status page.
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+  uptime_target: null
+  notes: Status page reports 100% uptime over the trailing 90 days across all
+    components; no formal SLA percentage is published.
+deprecated_operations: []

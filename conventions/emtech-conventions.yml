@@ -1,0 +1,38 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.emtech.com/quickstart
+docs: https://developer.emtech.com/quickstart
+authentication:
+  style: api-key
+  location: header
+  environments: [test, live]
+  cross_ref: authentication/emtech-authentication.yml
+environments:
+  model: per-organization Test and Live, with separate API keys
+  cross_ref: sandbox/emtech-sandbox.yml
+event_reporting:
+  description: >-
+    EMTECH's regulatory-reporting surface is built around data-ingestion APIs
+    (microlending, remittance, payment, consumer protection, virtual assets,
+    crowdfunding) through which financial service providers push events and
+    reports to supervisors. This is server-side ingestion, not outbound
+    webhooks.
+idempotency:
+  supported: unknown
+  notes: No idempotency-key header or contract is documented in the public
+    developer docs.
+pagination:
+  style: unknown
+  notes: Not documented in public docs; no public OpenAPI specification available.
+versioning:
+  style: unknown
+  cross_ref: lifecycle/emtech-lifecycle.yml
+error_envelope:
+  shape: unknown
+  notes: No public error reference or OpenAPI specification available to derive
+    the error envelope.
+rate_limiting:
+  signaling: unknown
+status:
+  page: https://status.emtech.com
+  cross_ref: lifecycle/emtech-lifecycle.yml

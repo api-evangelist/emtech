@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: https://developer.emtech.com/quickstart
+docs: https://developer.emtech.com/quickstart
+environments:
+- name: Test
+  description: Non-production environment for integration testing. API keys are
+    scoped to the Test environment and issued per organization from the platform.
+- name: Live
+  description: Production environment. Separate Live API keys are issued per
+    organization.
+key_separation:
+  model: per-organization, per-environment
+  issued_from: https://app.emtech.com
+  notes: >-
+    Credentials are unique to your organization and environment (Test or Live).
+    EMTECH also markets "Beyond Sandbox", a regulatory sandbox product for
+    supervisors, which is distinct from this developer Test environment.
+test_values:
+  notes: No published magic test card numbers, test identifiers, or fixture
+    values were found in the public developer documentation; test data is
+    provisioned per organization inside the Test environment.
