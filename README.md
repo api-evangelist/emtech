@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EMTECH is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+EMTECH is a financial-technology company founded in 2019 that modernizes financial market infrastructure for central banks, financial regulators, and financial service providers. Its Beyond Suite delivers regulatory sandbox management (Beyond Sandbox), digital cash and central bank digital currency infrastructure (Beyond Cash), automated compliance operations (Beyond Compliance), and risk-based supervision (Beyond Supervision), exposed through regulatory-reporting and data-ingestion APIs for microlending, remittance, payments, virtual assets, crowdfunding, consumer protection, and a CBDC simulator. EMTECH works with African central banks including the Bank of Ghana, the Central Bank of Nigeria, and Liberia, and is SOC 2 and ISO 27001 certified.
 
-Backed by: 500-global — https://emtech.com
+**Areas:** Company · Financial Services · RegTech · Central Banking · CBDC · Digital Currency · Compliance · Regulatory Reporting · Fintech · Payments
+
+## EMTECH on APIs.io
+
+Everything profiled for EMTECH is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/emtech/](https://apis.io/providers/emtech/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Emtech Authentication](https://apis.io/security/emtech/emtech-authentication/)
+- [Emtech Domain Security](https://apis.io/security/emtech/emtech-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://emtech.com)
+- [Documentation](https://docs.emtech.com)
+- [Getting started](https://developer.emtech.com/quickstart)
+- [API reference](https://developer.emtech.com)
+- [Sign up](https://app.emtech.com/register)
+- [Support](https://emtech.com/contact-us)
+- [Blog](https://emtech.com/resources/blog)
+- [Terms of service](https://emtech.com/terms-&-conditions)
+- [Privacy policy](https://emtech.com/privacy-policy)
+- [Status](https://status.emtech.com)
+
+## API Evangelist rating
+
+**Kin Score 30.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 35.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 26.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/emtech/](https://apis.io/providers/emtech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EMTECH: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/emtech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
